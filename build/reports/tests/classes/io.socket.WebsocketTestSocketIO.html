@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class io.socket.WebsocketTestSocketIO</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class io.socket.WebsocketTestSocketIO</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/io.socket.html">io.socket</a> &gt; WebsocketTestSocketIO</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">16</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">2</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">13.781s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">87%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="sendUtf8"></a>
+<h3 class="failures">sendUtf8</h3>
+<span class="code">
+<pre>java.lang.Exception: test timed out after 3000 milliseconds
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at io.socket.AbstractTestSocketIO.takeEvent(AbstractTestSocketIO.java:399)
+	at io.socket.AbstractTestSocketIO.sendUtf8(AbstractTestSocketIO.java:385)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="sendUtf8"></a>
+<h3 class="failures">sendUtf8</h3>
+<span class="code">
+<pre>java.lang.Exception: test timed out after 3000 milliseconds
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at io.socket.AbstractTestSocketIO.takeEvent(AbstractTestSocketIO.java:399)
+	at io.socket.AbstractTestSocketIO.sendUtf8(AbstractTestSocketIO.java:385)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">acknowledge</td>
+<td>0.422s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">acknowledge</td>
+<td>0.495s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emitAndMessage</td>
+<td>0.499s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emitAndMessage</td>
+<td>0.404s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emitAndOn</td>
+<td>0.393s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emitAndOn</td>
+<td>0.366s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">error</td>
+<td>0.521s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">error</td>
+<td>0.261s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">namespaces</td>
+<td>1.025s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">namespaces</td>
+<td>0.968s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">reconnectInvalidated</td>
+<td>0.393s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">reconnectInvalidated</td>
+<td>0.525s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">send</td>
+<td>0.284s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">send</td>
+<td>0.524s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">sendUtf8</td>
+<td>3.352s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">sendUtf8</td>
+<td>3.349s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized 0UIKA2ykeb8zHB6n-DSm
+Node: debug: setting request GET /socket.io/1/websocket/0UIKA2ykeb8zHB6n-DSm
+Node: debug: set heartbeat interval for client 0UIKA2ykeb8zHB6n-DSm
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+Node: debug: websocket writing 1::/main
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 3::/main:TESTSTRING
+Argument Taken: TESTSTRING
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized njDG4utnyfUNbOt7-Daf
+Node: debug: setting request GET /socket.io/1/websocket/njDG4utnyfUNbOt7-Daf
+Node: debug: set heartbeat interval for client njDG4utnyfUNbOt7-Daf
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /ns1
+Node: debug: websocket writing 1::/ns1
+onConnect
+Event Taken: onConnect
+Node: debug: client authorized for /main
+onConnect
+Event Taken: onConnect
+Event Taken: onDisconnect
+Node: debug: websocket writing 1::/main
+Node: debug: client authorized for /ns2
+Node: debug: websocket writing 1::/ns2
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 3::/main:ns2
+Event Taken: onMessage_string
+Argument Taken: ns2
+Node: debug: websocket writing 3:::TESTSTRING
+Event Taken: onMessage_string
+Argument Taken: TESTSTRING
+Event Taken: onMessage_string
+Argument Taken: TESTSTRING
+Node: debug: client authorized
+Node: info: handshake authorized 6Q7yvt0Pgk9myPlW-Dag
+Node: debug: setting request GET /socket.io/1/websocket/6Q7yvt0Pgk9myPlW-Dag
+Node: debug: set heartbeat interval for client 6Q7yvt0Pgk9myPlW-Dag
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /ns2
+Node: debug: websocket writing 1::/ns2
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 3::/main:ns2
+Event Taken: onMessage_string
+Argument Taken: ns2
+Event Taken: onDisconnect
+Event Taken: onDisconnect
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized 4K50KEKvXbB4P5Pu-Dse
+Node: debug: setting request GET /socket.io/1/websocket/4K50KEKvXbB4P5Pu-Dse
+Node: debug: set heartbeat interval for client 4K50KEKvXbB4P5Pu-Dse
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+Node: debug: websocket writing 1::/main
+onConnect
+Event Taken: onConnect
+Event in Queue: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized XfUE8LvMnFSlb-mI-DzF
+Node: debug: setting request GET /socket.io/1/websocket/XfUE8LvMnFSlb-mI-DzF
+Node: debug: set heartbeat interval for client XfUE8LvMnFSlb-mI-DzF
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 1::/main
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized xE57CLTUlalKKpMZ-EmR
+Node: debug: setting request GET /socket.io/1/websocket/xE57CLTUlalKKpMZ-EmR
+Node: debug: set heartbeat interval for client xE57CLTUlalKKpMZ-EmR
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 1::/main
+Node: debug: websocket writing 5::/main:{&quot;name&quot;:&quot;echo&quot;}
+Event Taken: on
+Event Taken: on
+Node: debug: websocket writing 5::/main:{&quot;name&quot;:&quot;echo&quot;,&quot;args&quot;:[&quot;TESTSTRING&quot;]}
+Argument Taken: TESTSTRING
+Event Taken: on
+Argument Taken: {&quot;foo&quot;:&quot;bar&quot;}
+Node: debug: websocket writing 5::/main:{&quot;name&quot;:&quot;echo&quot;,&quot;args&quot;:[{&quot;foo&quot;:&quot;bar&quot;}]}
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized zmeOy1ZtHQm73ph5-EuH
+Node: debug: setting request GET /socket.io/1/websocket/zmeOy1ZtHQm73ph5-EuH
+Node: debug: set heartbeat interval for client zmeOy1ZtHQm73ph5-EuH
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 1::/main
+Out: __:MESSAGE:TESTSTRING
+Line Taken: MESSAGE:TESTSTRING
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized Y1FQy3RAhliAEUBp-E16
+Node: debug: setting request GET /socket.io/1/websocket/Y1FQy3RAhliAEUBp-E16
+Node: debug: set heartbeat interval for client Y1FQy3RAhliAEUBp-E16
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+Node: debug: websocket writing 1::/main
+onConnect
+Event Taken: onConnect
+Node: debug: sending data ack packet
+Node: debug: websocket writing 6::/main:1+[&quot;TESTSTRING&quot;]
+Event Taken: ack
+Argument Taken: TESTSTRING
+Node: debug: websocket writing 5:1+:/main:{&quot;name&quot;:&quot;requestAcknowledge&quot;,&quot;args&quot;:[&quot;TESTSTRING&quot;]}
+Event Taken: on
+Argument Taken: TESTSTRING
+Out: __:ACKNOWLEDGE:TESTSTRING
+Line Taken: ACKNOWLEDGE:TESTSTRING
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized hzHkLVQC3Tl2bQMu-E-o
+Node: debug: setting request GET /socket.io/1/websocket/hzHkLVQC3Tl2bQMu-E-o
+Node: debug: set heartbeat interval for client hzHkLVQC3Tl2bQMu-E-o
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 1::/main
+Event Taken: onError
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized R2F3liEi1dOsq5kR-FFd
+Node: debug: setting request GET /socket.io/1/websocket/R2F3liEi1dOsq5kR-FFd
+Node: debug: set heartbeat interval for client R2F3liEi1dOsq5kR-FFd
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /ns1
+Node: debug: websocket writing 1::/ns1
+onConnect
+Event Taken: onConnect
+Node: debug: client authorized for /main
+Node: debug: websocket writing 1::/main
+onConnect
+Event Taken: onConnect
+Event Taken: onDisconnect
+Node: debug: client authorized for /ns2
+Node: debug: websocket writing 1::/ns2
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 3::/main:ns2
+Event Taken: onMessage_string
+Argument Taken: ns2
+Node: debug: websocket writing 3:::TESTSTRING
+Event Taken: onMessage_string
+Argument Taken: TESTSTRING
+Event Taken: onMessage_string
+Argument Taken: TESTSTRING
+Node: debug: client authorized
+Node: info: handshake authorized VFnI-n2m1FEHRzTf-FFe
+Node: debug: setting request GET /socket.io/1/websocket/VFnI-n2m1FEHRzTf-FFe
+Node: debug: set heartbeat interval for client VFnI-n2m1FEHRzTf-FFe
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /ns2
+Node: debug: websocket writing 1::/ns2
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 3::/main:ns2
+Event Taken: onMessage_string
+Argument Taken: ns2
+Event Taken: onDisconnect
+Event Taken: onDisconnect
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized u352mB4XxHjvodfD-FWa
+Node: debug: setting request GET /socket.io/1/websocket/u352mB4XxHjvodfD-FWa
+Node: debug: set heartbeat interval for client u352mB4XxHjvodfD-FWa
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+Node: debug: websocket writing 1::/main
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 3::/main:TESTSTRING
+Argument Taken: TESTSTRING
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized LiFdWzDFlCw9t52--FdH
+Node: debug: setting request GET /socket.io/1/websocket/LiFdWzDFlCw9t52--FdH
+Node: debug: set heartbeat interval for client LiFdWzDFlCw9t52--FdH
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+Node: debug: websocket writing 1::/main
+onConnect
+Event Taken: onConnect
+Event in Queue: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized 6Ig2oLj9kufT4q28-Fhf
+Node: debug: setting request GET /socket.io/1/websocket/6Ig2oLj9kufT4q28-Fhf
+Node: debug: set heartbeat interval for client 6Ig2oLj9kufT4q28-Fhf
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+Node: debug: websocket writing 1::/main
+onConnect
+Event Taken: onConnect
+Out: __:MESSAGE:TESTSTRING
+Line Taken: MESSAGE:TESTSTRING
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized wEoDgkTSOL3d5Rvo-Fmm
+Node: debug: setting request GET /socket.io/1/websocket/wEoDgkTSOL3d5Rvo-Fmm
+Node: debug: set heartbeat interval for client wEoDgkTSOL3d5Rvo-Fmm
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 1::/main
+Event Taken: on
+Node: debug: websocket writing 5::/main:{&quot;name&quot;:&quot;echo&quot;}
+Event Taken: on
+Argument Taken: TESTSTRING
+Node: debug: websocket writing 5::/main:{&quot;name&quot;:&quot;echo&quot;,&quot;args&quot;:[&quot;TESTSTRING&quot;]}
+Event Taken: on
+Argument Taken: {&quot;foo&quot;:&quot;bar&quot;}
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized g-JEKgR9dSs8K5sl-FtP
+Node: debug: setting request GET /socket.io/1/websocket/g-JEKgR9dSs8K5sl-FtP
+Node: debug: set heartbeat interval for client g-JEKgR9dSs8K5sl-FtP
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+onConnect
+Event Taken: onConnect
+Node: debug: websocket writing 1::/main
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized x37F8GaJ3LI3RmoN-Gfh
+Node: debug: setting request GET /socket.io/1/websocket/x37F8GaJ3LI3RmoN-Gfh
+Node: debug: set heartbeat interval for client x37F8GaJ3LI3RmoN-Gfh
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+Node: debug: websocket writing 1::/main
+onConnect
+Event Taken: onConnect
+Event Taken: onError
+Event Taken: onDisconnect
+Connect with websocket
+Node: info: socket.io started
+Out: __:OK
+Line Taken: OK
+Node: debug: client authorized
+Node: info: handshake authorized l3AzqVZdXuzS-CAj-Gl-
+Node: debug: setting request GET /socket.io/1/websocket/l3AzqVZdXuzS-CAj-Gl-
+Node: debug: set heartbeat interval for client l3AzqVZdXuzS-CAj-Gl-
+Node: debug: client authorized for 
+Node: debug: websocket writing 1::
+Node: debug: client authorized for /main
+Node: debug: websocket writing 1::/main
+onConnect
+Event Taken: onConnect
+Node: debug: sending data ack packet
+Node: debug: websocket writing 6::/main:1+[&quot;TESTSTRING&quot;]
+Event Taken: ack
+Argument Taken: TESTSTRING
+Node: debug: websocket writing 5:1+:/main:{&quot;name&quot;:&quot;requestAcknowledge&quot;,&quot;args&quot;:[&quot;TESTSTRING&quot;]}
+Event Taken: on
+Argument Taken: TESTSTRING
+Out: __:ACKNOWLEDGE:TESTSTRING
+Line Taken: ACKNOWLEDGE:TESTSTRING
+Event Taken: onDisconnect
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Jan 06, 2015 1:19:05 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;TESTSTRING&quot;],&quot;name&quot;:&quot;echoSend&quot;}
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection transportMessage
+INFO: &lt; 3::/main:TESTSTRING
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/ns1:
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/ns1
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/ns1
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/ns2:
+Jan 06, 2015 1:19:05 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/ns2
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection transportMessage
+INFO: &lt; 3::/main:ns2
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;TESTSTRING&quot;],&quot;name&quot;:&quot;defaultns&quot;}
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection transportMessage
+INFO: &lt; 3:::TESTSTRING
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/ns2:
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/ns2
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection transportMessage
+INFO: &lt; 3::/main:ns2
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/ns2
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/ns2
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:06 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread serverToClient
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:07 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:07 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:07 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:07 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;??&quot;],&quot;name&quot;:&quot;fooo&quot;}
+Jan 06, 2015 1:19:07 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;??&quot;],&quot;name&quot;:&quot;fooo&quot;}
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[],&quot;name&quot;:&quot;echo&quot;}
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection transportMessage
+INFO: &lt; 5::/main:{&quot;name&quot;:&quot;echo&quot;}
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;TESTSTRING&quot;],&quot;name&quot;:&quot;echo&quot;}
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection transportMessage
+INFO: &lt; 5::/main:{&quot;name&quot;:&quot;echo&quot;,&quot;args&quot;:[&quot;TESTSTRING&quot;]}
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[{&quot;foo&quot;:&quot;bar&quot;}],&quot;name&quot;:&quot;echo&quot;}
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection transportMessage
+INFO: &lt; 5::/main:{&quot;name&quot;:&quot;echo&quot;,&quot;args&quot;:[{&quot;foo&quot;:&quot;bar&quot;}]}
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:10 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:116)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:73)
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection sendPlain
+INFO: &gt; 3::/main:TESTSTRING
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.&lt;init&gt;(Socket.java:434)
+	at java.net.Socket.&lt;init&gt;(Socket.java:211)
+	at io.socket.testutils.MutateProxy.client(MutateProxy.java:46)
+	at io.socket.testutils.MutateProxy.server(MutateProxy.java:40)
+	at io.socket.testutils.MutateProxy.run(MutateProxy.java:31)
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5:1+:/main:{&quot;args&quot;:[&quot;TESTSTRING&quot;],&quot;name&quot;:&quot;echoAck&quot;}
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection transportMessage
+INFO: &lt; 6::/main:1+[&quot;TESTSTRING&quot;]
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;TESTSTRING&quot;],&quot;name&quot;:&quot;requestAcknowledge&quot;}
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection transportMessage
+INFO: &lt; 5:1+:/main:{&quot;name&quot;:&quot;requestAcknowledge&quot;,&quot;args&quot;:[&quot;TESTSTRING&quot;]}
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection sendPlain
+INFO: &gt; 6::/main:1+[&quot;TESTSTRING&quot;]
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:11 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+io.socket.SocketIOException: Error while handshaking
+	at io.socket.IOConnection.handshake(IOConnection.java:313)
+	at io.socket.IOConnection.access$600(IOConnection.java:30)
+	at io.socket.IOConnection$ConnectThread.run(IOConnection.java:190)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.&lt;init&gt;(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1103)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1511)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at io.socket.IOConnection.handshake(IOConnection.java:304)
+	... 2 more
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/ns1:
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/ns1
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/ns1
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/ns2:
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/ns2
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection transportMessage
+INFO: &lt; 3::/main:ns2
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;TESTSTRING&quot;],&quot;name&quot;:&quot;defaultns&quot;}
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection transportMessage
+INFO: &lt; 3:::TESTSTRING
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/ns2:
+Jan 06, 2015 1:19:12 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/ns2
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection transportMessage
+INFO: &lt; 3::/main:ns2
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/ns2
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/ns2
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;TESTSTRING&quot;],&quot;name&quot;:&quot;echoSend&quot;}
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection transportMessage
+INFO: &lt; 3::/main:TESTSTRING
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:13 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection sendPlain
+INFO: &gt; 3::/main:TESTSTRING
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[],&quot;name&quot;:&quot;echo&quot;}
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection transportMessage
+INFO: &lt; 5::/main:{&quot;name&quot;:&quot;echo&quot;}
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;TESTSTRING&quot;],&quot;name&quot;:&quot;echo&quot;}
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection transportMessage
+INFO: &lt; 5::/main:{&quot;name&quot;:&quot;echo&quot;,&quot;args&quot;:[&quot;TESTSTRING&quot;]}
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[{&quot;foo&quot;:&quot;bar&quot;}],&quot;name&quot;:&quot;echo&quot;}
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection transportMessage
+INFO: &lt; 5::/main:{&quot;name&quot;:&quot;echo&quot;,&quot;args&quot;:[{&quot;foo&quot;:&quot;bar&quot;}]}
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:14 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread serverToClient
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:15 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:15 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:15 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:15 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;??&quot;],&quot;name&quot;:&quot;fooo&quot;}
+Jan 06, 2015 1:19:15 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;??&quot;],&quot;name&quot;:&quot;fooo&quot;}
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+io.socket.SocketIOException: Error while handshaking
+	at io.socket.IOConnection.handshake(IOConnection.java:313)
+	at io.socket.IOConnection.access$600(IOConnection.java:30)
+	at io.socket.IOConnection$ConnectThread.run(IOConnection.java:190)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.&lt;init&gt;(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1103)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1511)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at io.socket.IOConnection.handshake(IOConnection.java:304)
+	... 2 more
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Node output end
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread serverToClient
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Thread clientToServer
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at io.socket.testutils.MutateProxy$Forwarder.run(MutateProxy.java:72)
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection sendPlain
+INFO: &gt; 1::/main:
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection transportMessage
+INFO: &lt; 1::/main
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5:1+:/main:{&quot;args&quot;:[&quot;TESTSTRING&quot;],&quot;name&quot;:&quot;echoAck&quot;}
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection transportMessage
+INFO: &lt; 6::/main:1+[&quot;TESTSTRING&quot;]
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection sendPlain
+INFO: &gt; 5::/main:{&quot;args&quot;:[&quot;TESTSTRING&quot;],&quot;name&quot;:&quot;requestAcknowledge&quot;}
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection transportMessage
+INFO: &lt; 5:1+:/main:{&quot;name&quot;:&quot;requestAcknowledge&quot;,&quot;args&quot;:[&quot;TESTSTRING&quot;]}
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection sendPlain
+INFO: &gt; 6::/main:1+[&quot;TESTSTRING&quot;]
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection sendPlain
+INFO: &gt; 0::/main
+Jan 06, 2015 1:19:18 PM io.socket.IOConnection cleanup
+INFO: Cleanup
+Node output end
+Thread clientToServer
+Node output end
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 2.1</a> at Jan 6, 2015 1:19:36 PM</p>
+</div>
+</div>
+</body>
